@@ -1,0 +1,8 @@
+a=int(input("Enter your number"))
+b=int(input("Enter your number"))
+print("addition-",a+b)
+print("subtraction-",a-b)
+print("multiplication-",a*b)
+print("division-",a/b)
+print("division-",a//b)
+print("exponent",6**7)
