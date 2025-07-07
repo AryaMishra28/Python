@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>shapes</title>
+        <style>
+            #square{
+                border: 3px solid brown;
+                height: 300px;
+                width: 300px;
+            }
+            #circle{
+                border-radius: 50%;
+                height: 300px;
+                width: 300px;
+                border: 3px solid brown;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Make changes to the square</h1>
+    <div id="square">
+
+    </div>
+<button onclick="cir()">Make a circle</button>
+<button onclick="show()">Show</button>
+<button onclick="hide()">Hide</button>
+<button onclick="square()">make a square</button>
+<script>
+    var cle=document.getElementById("square")
+    function cir(){
+    cle.id="circle"
+    }
+    function hide(){
+        cle.style.display="none"
+    }
+    function show(){
+        cle.style.display="block"
+    }
+    
+    cle.onmouseenter = function(){
+        cle.style.backgroundColor="brown"
+    }
+    cle.onmouseout = function(){
+        cle.style.backgroundColor="white"
+    }
+    function square(){
+        cle.id="square"
+    }
+
+</script>
+        
+    </body>
+</html>
