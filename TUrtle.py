@@ -1,0 +1,13 @@
+import turtle
+scr=turtle.Screen()
+scr.title("make a triangle")
+scr.bgcolor("pink")
+pen=turtle.Turtle()
+pen.color("brown")
+pen.right(50)
+pen.forward(200)
+pen.right(130)
+pen.forward(200)
+pen.right(115)
+pen.forward(170)
+scr.exitonclick()
